@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#container {
+}
+
+.entryform {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.entryField {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.entryJournal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+}
